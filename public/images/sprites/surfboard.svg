@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 72" fill="none">
+  <!-- Beach Surfboard Neo-Brutalist -->
+  <g transform="rotate(15 20 36)">
+    <!-- Main board shape -->
+    <path d="M20 4 C12 18 10 46 14 66 C18 68 22 68 26 66 C30 46 28 18 20 4 Z" fill="#ffd84d" stroke="#0b2a45" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Center stripe -->
+    <path d="M18 6 C17 24 17 48 18 66 L22 66 C23 48 23 24 22 6 Z" fill="#14a3d8" stroke="#0b2a45" stroke-width="1.8"/>
+    <!-- Horizontal accent stripe -->
+    <path d="M12 36 L28 36" stroke="#ff5a36" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M13 42 L27 42" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>
+

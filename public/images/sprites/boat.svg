@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Sailboat Neo-Brutalist -->
+  <!-- Mast -->
+  <line x1="30" y1="8" x2="30" y2="44" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <!-- Main Sail (Right) -->
+  <path d="M32 10 L54 36 L32 38 Z" fill="#ffffff" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 18 L46 34 L32 35 Z" fill="#ffd84d"/>
+  <!-- Front Sail (Left) -->
+  <path d="M28 14 L12 38 L28 40 Z" fill="#14a3d8" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Pennant Flag -->
+  <path d="M30 8 L22 5 L30 2 Z" fill="#ff5a36" stroke="#0b2a45" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Boat Hull -->
+  <path d="M8 44 L16 56 L48 56 L58 44 Z" fill="#ff5a36" stroke="#0b2a45" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Hull stripe -->
+  <path d="M12 48 L15 52 L49 52 L54 48 Z" fill="#ffffff"/>
+  <!-- Water line -->
+  <path d="M4 60 Q16 57 28 60 T52 60 T62 60" stroke="#0b2a45" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
+

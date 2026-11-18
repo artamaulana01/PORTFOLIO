@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 32" fill="none">
+  <!-- Wooden Boat on Beach Shoreline -->
+  <!-- Shadow on sand -->
+  <ellipse cx="34" cy="28" rx="28" ry="4" fill="#0f172a" opacity="0.15"/>
+  <!-- Boat hull bottom -->
+  <path d="M6 18 C10 26 24 28 34 28 C44 28 58 26 62 18 Z" fill="#b45309" stroke="#0f172a" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Boat hull main -->
+  <path d="M4 14 C10 22 24 24 34 24 C44 24 58 22 64 14 C65 12 63 11 60 11 L8 11 C5 11 3 12 4 14 Z" fill="#d97706" stroke="#0f172a" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Planks inside -->
+  <line x1="22" y1="12" x2="22" y2="23" stroke="#92400e" stroke-width="2"/>
+  <line x1="34" y1="12" x2="34" y2="24" stroke="#92400e" stroke-width="2"/>
+  <line x1="46" y1="12" x2="46" y2="23" stroke="#92400e" stroke-width="2"/>
+  <!-- Seat bench -->
+  <rect x="28" y="13" width="12" height="4" rx="1" fill="#fef3c7" stroke="#0f172a" stroke-width="1.8"/>
+  <!-- Oar resting on side -->
+  <line x1="12" y1="6" x2="44" y2="22" stroke="#78350f" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="14" cy="7" rx="5" ry="2.5" transform="rotate(30 14 7)" fill="#b45309" stroke="#0f172a" stroke-width="1.5"/>
+</svg>
+

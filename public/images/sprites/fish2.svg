@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 48" fill="none">
+  <!-- Blue Angelfish -->
+  <!-- Long Dorsal Fin -->
+  <path d="M22 18 L16 2 C22 6 28 10 30 16 Z" fill="#14a3d8" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Long Ventral Fin -->
+  <path d="M22 30 L14 46 C20 40 26 36 28 32 Z" fill="#14a3d8" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Tail -->
+  <path d="M14 24 L2 14 C5 22 5 26 2 34 Z" fill="#38bdf8" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Diamond Body -->
+  <path d="M14 24 C20 14 28 12 36 18 C44 24 40 28 36 30 C28 36 20 34 14 24 Z" fill="#0284c7" stroke="#0b2a45" stroke-width="2.8" stroke-linejoin="round"/>
+  <!-- Stripes -->
+  <path d="M24 14 Q28 24 24 34" stroke="#ffd84d" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M31 16 Q35 24 31 32" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Eye -->
+  <circle cx="37" cy="22" r="3" fill="#ffffff" stroke="#0b2a45" stroke-width="1.8"/>
+  <circle cx="38" cy="22" r="1.4" fill="#0b2a45"/>
+</svg>
+

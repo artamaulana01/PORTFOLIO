@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" fill="none">
+  <!-- Beach Palm Tree Neo-Brutalist -->
+  <!-- Curved Trunk -->
+  <path d="M26 80 C28 55 36 38 40 24 C34 38 24 55 20 80 Z" fill="#92400e" stroke="#0b2a45" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Trunk Segments -->
+  <path d="M22 68 Q25 66 28 69" stroke="#0b2a45" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M25 56 Q28 54 31 57" stroke="#0b2a45" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M29 44 Q32 42 35 45" stroke="#0b2a45" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M34 32 Q37 30 40 33" stroke="#0b2a45" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Coconuts -->
+  <circle cx="36" cy="24" r="3.5" fill="#78350f" stroke="#0b2a45" stroke-width="2"/>
+  <circle cx="42" cy="24" r="3.5" fill="#78350f" stroke="#0b2a45" stroke-width="2"/>
+  <circle cx="39" cy="28" r="3.5" fill="#78350f" stroke="#0b2a45" stroke-width="2"/>
+  <!-- Palm Fronds / Leaves -->
+  <!-- Left arch frond -->
+  <path d="M38 22 C32 12 18 10 4 18 C12 24 24 24 38 22 Z" fill="#15803d" stroke="#0b2a45" stroke-width="2.8" stroke-linejoin="round"/>
+  <!-- Top left frond -->
+  <path d="M40 22 C34 6 22 2 12 6 C20 14 30 18 40 22 Z" fill="#16a34a" stroke="#0b2a45" stroke-width="2.8" stroke-linejoin="round"/>
+  <!-- Top right frond -->
+  <path d="M40 22 C44 4 56 4 62 10 C54 16 46 20 40 22 Z" fill="#16a34a" stroke="#0b2a45" stroke-width="2.8" stroke-linejoin="round"/>
+  <!-- Right arch frond -->
+  <path d="M40 22 C48 14 58 18 64 28 C54 28 46 26 40 22 Z" fill="#15803d" stroke="#0b2a45" stroke-width="2.8" stroke-linejoin="round"/>
+  <!-- Lower left frond -->
+  <path d="M38 24 C28 22 14 28 8 36 C18 36 28 32 38 24 Z" fill="#22c55e" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>
+

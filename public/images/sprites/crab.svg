@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 56" fill="none">
+  <!-- Beach Crab Neo-Brutalist -->
+  <!-- Legs Left -->
+  <path d="M18 36 C10 38 6 46 8 52" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 40 C14 44 11 50 14 54" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M26 44 C20 48 18 52 21 55" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <!-- Legs Right -->
+  <path d="M54 36 C62 38 66 46 64 52" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50 40 C58 44 61 50 58 54" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M46 44 C52 48 54 52 51 55" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <!-- Left Claw Arm & Claw -->
+  <path d="M20 28 C14 24 10 18 12 12" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <g class="crab-claw-left">
+    <path d="M12 14 C6 14 4 8 8 4 C13 0 17 8 13 14 Z" fill="#ff5a36" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M12 11 C8 9 9 5 13 5 C16 5 17 9 14 12 Z" fill="#ff7a59" stroke="#0b2a45" stroke-width="2"/>
+  </g>
+  <!-- Right Claw Arm & Claw -->
+  <path d="M52 28 C58 24 62 18 60 12" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <g class="crab-claw-right">
+    <path d="M60 14 C66 14 68 8 64 4 C59 0 55 8 59 14 Z" fill="#ff5a36" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M60 11 C64 9 63 5 59 5 C56 5 55 9 58 12 Z" fill="#ff7a59" stroke="#0b2a45" stroke-width="2"/>
+  </g>
+  <!-- Main Body Shell -->
+  <ellipse cx="36" cy="36" rx="20" ry="14" fill="#ff5a36" stroke="#0b2a45" stroke-width="3"/>
+  <!-- Belly highlight -->
+  <ellipse cx="36" cy="38" rx="13" ry="8" fill="#ff7a59"/>
+  <!-- Eye Stalks -->
+  <path d="M30 24 L29 16" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M42 24 L43 16" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="28" cy="14" r="5" fill="#ffffff" stroke="#0b2a45" stroke-width="2.5"/>
+  <circle cx="29" cy="13" r="2" fill="#0b2a45"/>
+  <circle cx="44" cy="14" r="5" fill="#ffffff" stroke="#0b2a45" stroke-width="2.5"/>
+  <circle cx="43" cy="13" r="2" fill="#0b2a45"/>
+  <!-- Smiling Mouth -->
+  <path d="M32 40 Q36 44 40 40" stroke="#0b2a45" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cheeks -->
+  <circle cx="26" cy="38" r="2.5" fill="#ffd84d"/>
+  <circle cx="46" cy="38" r="2.5" fill="#ffd84d"/>
+</svg>
+

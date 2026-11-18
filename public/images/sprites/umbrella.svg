@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Beach Umbrella Neo-Brutalist -->
+  <!-- Pole tilted into sand -->
+  <line x1="32" y1="28" x2="22" y2="60" stroke="#0b2a45" stroke-width="3" stroke-linecap="round"/>
+  <!-- Top Tip -->
+  <path d="M31 10 L33 6 L35 10 Z" fill="#ffd84d" stroke="#0b2a45" stroke-width="2"/>
+  <!-- Canopy Segments -->
+  <g transform="rotate(-12 32 24)">
+    <!-- Segment 1 Yellow -->
+    <path d="M32 10 Q20 18 10 24 C14 26 20 26 22 25 Q28 17 32 10 Z" fill="#ffd84d" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Segment 2 Sky Blue -->
+    <path d="M32 10 Q28 17 22 25 C26 27 34 27 36 25 Q35 17 32 10 Z" fill="#14a3d8" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Segment 3 Coral -->
+    <path d="M32 10 Q35 17 36 25 C40 27 46 26 48 24 Q40 17 32 10 Z" fill="#ff5a36" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Segment 4 Mint -->
+    <path d="M32 10 Q40 17 48 24 C50 25 54 24 56 22 Q44 15 32 10 Z" fill="#cdf2df" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+</svg>
+

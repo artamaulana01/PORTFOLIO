@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 40" fill="none">
+  <!-- Orange Tropical Fish -->
+  <!-- Tail -->
+  <path d="M16 20 L4 10 C6 18 6 22 4 30 Z" fill="#ff7828" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Dorsal & Ventral Fins -->
+  <path d="M26 12 C28 6 34 6 36 10 Z" fill="#ff9a52" stroke="#0b2a45" stroke-width="2"/>
+  <path d="M28 28 C30 34 35 34 37 30 Z" fill="#ff9a52" stroke="#0b2a45" stroke-width="2"/>
+  <!-- Body -->
+  <ellipse cx="32" cy="20" rx="18" ry="12" fill="#ff7828" stroke="#0b2a45" stroke-width="2.8"/>
+  <!-- White Stripes -->
+  <path d="M26 9 C27 15 27 25 26 31 C29 31 30 25 30 20 C30 15 29 9 26 9 Z" fill="#ffffff" stroke="#0b2a45" stroke-width="2"/>
+  <path d="M36 10 C37 15 37 25 36 30 C38 30 39 25 39 20 C39 15 38 10 36 10 Z" fill="#ffffff" stroke="#0b2a45" stroke-width="2"/>
+  <!-- Fin -->
+  <path d="M30 20 C27 23 25 25 28 27 C31 27 32 23 30 20 Z" fill="#ff9a52" stroke="#0b2a45" stroke-width="1.8"/>
+  <!-- Eye -->
+  <circle cx="42" cy="18" r="3.2" fill="#ffffff" stroke="#0b2a45" stroke-width="2"/>
+  <circle cx="43" cy="18" r="1.5" fill="#0b2a45"/>
+</svg>
+

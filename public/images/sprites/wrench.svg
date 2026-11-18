@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" fill="none">
+  <!-- Blue Wrench Badge -->
+  <g transform="rotate(-45 27 27)">
+    <!-- Shaft -->
+    <rect x="23" y="16" width="8" height="26" rx="2" fill="#14a3d8" stroke="#0b2a45" stroke-width="2.5"/>
+    <!-- Top Open Jaw -->
+    <path d="M19 18 C17 12 21 6 27 6 C33 6 37 12 35 18 L31 16 C30 13 24 13 23 16 Z" fill="#38bdf8" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Bottom Ring / Jaw -->
+    <circle cx="27" cy="44" r="7" fill="#14a3d8" stroke="#0b2a45" stroke-width="2.5"/>
+    <circle cx="27" cy="44" r="3.2" fill="#ffffff" stroke="#0b2a45" stroke-width="1.8"/>
+  </g>
+</svg>
+

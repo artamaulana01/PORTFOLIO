@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 66" fill="none">
+  <!-- Rubber Duck with Cool Sunglasses (Neubrutalist Ocean) -->
+  <!-- Underside shadow -->
+  <ellipse cx="38" cy="47" rx="28" ry="14" fill="#f59e0b"/>
+  <!-- Body main -->
+  <ellipse cx="38" cy="44" rx="28" ry="16" fill="#ffd84d" stroke="#0f172a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Tail tip -->
+  <path d="M14 42 C8 38 6 32 8 28 C12 29 17 34 19 39 Z" fill="#ffd84d" stroke="#0f172a" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Wing -->
+  <path d="M24 44 C26 37 34 34 41 38 C43 43 38 49 30 49 C25 49 23 46 24 44 Z" fill="#facc15" stroke="#0f172a" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Head -->
+  <circle cx="52" cy="24" r="16" fill="#ffd84d" stroke="#0f172a" stroke-width="3"/>
+  <!-- Cute cheek blush -->
+  <circle cx="47" cy="31" r="3.5" fill="#f87171" opacity="0.6"/>
+  <!-- Beak -->
+  <path d="M64 23 C70 23 75 26 73 28 C71 31 65 31 62 30 Z" fill="#ff7828" stroke="#0f172a" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Sunglasses (Frame & Lenses) -->
+  <g id="sunglasses">
+    <!-- Sunglasses bridge -->
+    <path d="M46 20 L58 20" stroke="#0f172a" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Left/Back lens -->
+    <rect x="42" y="16" width="10" height="9" rx="2.5" fill="#0f172a"/>
+    <path d="M44 18 L46 23" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Main lens -->
+    <path d="M52 16 H64 C65.5 16 66.5 17.5 66 19 L64.5 24 C64 25.5 62.5 26.5 61 26.5 H54 C52.5 26.5 51.5 25 52 23.5 Z" fill="#0f172a" stroke="#0f172a" stroke-width="1.5"/>
+    <!-- Lens reflection -->
+    <path d="M55 18 L58 24" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M59 18 L61 24" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Temple arm going back -->
+    <path d="M42 19 L37 21" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

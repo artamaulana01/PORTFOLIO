@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 56" fill="none">
+  <!-- Beach Sandcastle Neo-Brutalist -->
+  <!-- Base Mound -->
+  <path d="M4 52 Q32 46 60 52 L62 56 L2 56 Z" fill="#eab308" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Main Wall -->
+  <path d="M12 50 L14 26 L50 26 L52 50 Z" fill="#fde047" stroke="#0b2a45" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Left Tower -->
+  <path d="M8 50 L10 20 L20 20 L20 50 Z" fill="#ffd84d" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Left Battlements -->
+  <path d="M9 20 L9 16 L13 16 L13 20 L16 20 L16 16 L20 16 L20 20" stroke="#0b2a45" stroke-width="2" stroke-linecap="round"/>
+  <!-- Right Tower -->
+  <path d="M44 50 L44 20 L54 20 L56 50 Z" fill="#ffd84d" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Right Battlements -->
+  <path d="M44 20 L44 16 L48 16 L48 20 L51 20 L51 16 L55 16 L55 20" stroke="#0b2a45" stroke-width="2" stroke-linecap="round"/>
+  <!-- Center Spire Tower -->
+  <path d="M25 26 L27 12 L37 12 L39 26 Z" fill="#ffd84d" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M26 12 L32 4 L38 12 Z" fill="#ff5a36" stroke="#0b2a45" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Flag on Spire -->
+  <line x1="32" y1="4" x2="32" y2="0" stroke="#0b2a45" stroke-width="1.8"/>
+  <path d="M32 0 L39 2 L32 5 Z" fill="#14a3d8" stroke="#0b2a45" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Castle Door Archway -->
+  <path d="M28 50 L28 38 C28 34 36 34 36 38 L36 50 Z" fill="#0b2a45"/>
+  <!-- Tower Windows -->
+  <rect x="13" y="28" width="3.5" height="6" rx="1.5" fill="#0b2a45"/>
+  <rect x="47" y="28" width="3.5" height="6" rx="1.5" fill="#0b2a45"/>
+  <rect x="30" y="16" width="4" height="6" rx="1.5" fill="#0b2a45"/>
+</svg>
+

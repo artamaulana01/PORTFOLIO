@@ -1,0 +1,651 @@
+/* ==========================================================================
+   ADMIN PANEL STYLESHEET (NEO-BRUTALIST COASTAL THEME)
+   ========================================================================== */
+
+:root {
+    --ink: #0b2a45;
+    --sand: #fdf1c8;
+    --card: #fffaf0;
+    --yel: #ffd84d;
+    --sky: #14a3d8;
+    --deep: #083f69;
+    --mint: #cdf2df;
+    --coral: #f87171;
+    --danger: #ef4444;
+    --success: #10b981;
+    --bg-main: #fcf9f2;
+    --border: #0b2a45;
+    --shadow: 4px 4px 0 #0b2a45;
+    --shadow-sm: 2px 2px 0 #0b2a45;
+    --shadow-lg: 6px 6px 0 #0b2a45;
+    --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-sans);
+    color: var(--ink);
+    background-color: var(--bg-main);
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button, input, select, textarea {
+    font: inherit;
+    color: inherit;
+}
+
+/* ==========================================================================
+   LAYOUT: SIDEBAR & MAIN CONTENT
+   ========================================================================== */
+
+.admin-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.admin-sidebar {
+    width: 270px;
+    background: linear-gradient(180deg, #083f69 0%, #062b47 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid var(--ink);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar-header {
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.sidebar-header img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 2px solid var(--yel);
+    background: #fff;
+    object-fit: cover;
+}
+
+.sidebar-header .brand-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+}
+
+.sidebar-header .brand-sub {
+    font-size: 0.68rem;
+    font-family: var(--font-mono);
+    color: var(--yel);
+    text-transform: uppercase;
+}
+
+.sidebar-menu {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.menu-section {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    padding: 0.8rem 0.75rem 0.3rem;
+    letter-spacing: 0.05em;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.85rem;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    transition: all 0.15s ease;
+    border: 1.5px solid transparent;
+}
+
+.nav-item:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    transform: translateX(3px);
+}
+
+.nav-item.active {
+    background: var(--yel);
+    color: var(--ink);
+    border-color: var(--ink);
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
+    font-weight: 800;
+}
+
+.sidebar-footer {
+    padding: 1rem 1.25rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.admin-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.admin-avatar-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--yel);
+    color: var(--ink);
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    font-size: 0.95rem;
+    border: 2px solid var(--ink);
+}
+
+.admin-info-name {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.admin-info-email {
+    font-size: 0.68rem;
+    font-family: var(--font-mono);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Main Area */
+.admin-main {
+    flex: 1;
+    margin-left: 270px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+/* Topbar */
+.admin-topbar {
+    height: 64px;
+    background: #fff;
+    border-bottom: 2px solid var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+}
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hamburger-btn {
+    display: none;
+    background: none;
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    padding: 0.35rem 0.55rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.page-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+/* Content Container */
+.admin-content {
+    padding: 2rem 1.75rem;
+    flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   NEO-BRUTALIST COMPONENTS
+   ========================================================================== */
+
+.card {
+    background: #fff;
+    border: 2px solid var(--ink);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.card-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0.55rem 1.1rem;
+    border: 2px solid var(--ink);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow);
+}
+
+.btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+.btn-sm {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background: var(--ink);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: var(--deep);
+    color: #fff;
+}
+
+.btn-warning {
+    background: var(--yel);
+    color: var(--ink);
+}
+
+.btn-info {
+    background: var(--sky);
+    color: #fff;
+}
+
+.btn-danger {
+    background: var(--coral);
+    color: #fff;
+}
+
+.btn-ghost {
+    background: #fff;
+    color: var(--ink);
+}
+
+/* Flash Messages */
+.alert {
+    padding: 0.9rem 1.2rem;
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--shadow-sm);
+}
+
+.alert-success {
+    background: var(--mint);
+    color: var(--ink);
+}
+
+.alert-error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* Form Controls */
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+}
+
+.form-label {
+    display: block;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+    color: var(--ink);
+}
+
+.form-label .required {
+    color: var(--danger);
+    margin-left: 2px;
+}
+
+.form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 0.65rem 0.9rem;
+    border: 2px solid var(--ink);
+    border-radius: 10px;
+    background: #fff;
+    color: var(--ink);
+    font-size: 0.9rem;
+    transition: all 0.15s ease;
+}
+
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+    outline: 3px solid var(--yel);
+    border-color: var(--ink);
+}
+
+.form-textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-error {
+    font-size: 0.78rem;
+    color: var(--danger);
+    font-weight: 600;
+    margin-top: 0.35rem;
+    display: block;
+}
+
+.form-help {
+    font-size: 0.75rem;
+    color: #4b5563;
+    margin-top: 0.3rem;
+}
+
+/* Dynamic Rows (Infos, Points, Tags) */
+.dynamic-item {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+.dynamic-item .form-input {
+    margin-bottom: 0;
+}
+
+.btn-del-row {
+    background: #fee2e2;
+    color: var(--danger);
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    padding: 0.55rem 0.8rem;
+    cursor: pointer;
+    font-weight: 800;
+    line-height: 1;
+}
+
+/* Checkbox Grid for Skills */
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.6rem;
+    max-height: 260px;
+    overflow-y: auto;
+    padding: 0.8rem;
+    border: 2px solid var(--ink);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--sky);
+}
+
+/* Data Tables */
+.table-responsive {
+    overflow-x: auto;
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    background: #fff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.88rem;
+}
+
+.table th {
+    background: var(--sand);
+    padding: 0.85rem 1rem;
+    font-weight: 800;
+    border-bottom: 2px solid var(--ink);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1.5px solid #e5e7eb;
+    vertical-align: middle;
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+.table tr:hover td {
+    background: #fafaf9;
+}
+
+.table-actions {
+    display: flex;
+    gap: 0.4rem;
+}
+
+/* Badge */
+.badge {
+    display: inline-block;
+    padding: 0.2rem 0.55rem;
+    border: 1.5px solid var(--ink);
+    border-radius: 6px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+}
+
+.badge-yel { background: var(--yel); }
+.badge-mint { background: var(--mint); }
+.badge-sky { background: #bae6fd; }
+
+/* Dashboard Stat Cards */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: #fff;
+    border: 2px solid var(--ink);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat-icon {
+    font-size: 2.2rem;
+    line-height: 1;
+}
+
+.stat-val {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 1;
+    font-family: var(--font-mono);
+    color: var(--ink);
+}
+
+.stat-lbl {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #4b5563;
+    margin-top: 0.25rem;
+}
+
+/* Quick shortcuts */
+.shortcuts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.shortcut-item {
+    background: var(--card);
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.15s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.shortcut-item:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow);
+    background: #fff;
+}
+
+.shortcut-icon {
+    font-size: 1.8rem;
+}
+
+.shortcut-title {
+    font-weight: 800;
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN (DOWN TO 360PX)
+   ========================================================================== */
+
+.sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(11, 42, 69, 0.5);
+    backdrop-filter: blur(2px);
+    z-index: 95;
+}
+
+@media (max-width: 900px) {
+    .admin-sidebar {
+        transform: translateX(-100%);
+    }
+
+    .admin-sidebar.open {
+        transform: translateX(0);
+    }
+
+    .sidebar-overlay.open {
+        display: block;
+    }
+
+    .admin-main {
+        margin-left: 0;
+    }
+
+    .hamburger-btn {
+        display: block;
+    }
+
+    .admin-topbar {
+        padding: 0 1rem;
+    }
+
+    .admin-content {
+        padding: 1.25rem 1rem;
+    }
+}
+

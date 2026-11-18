@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" fill="none">
+  <!-- Yellow Hammer Badge -->
+  <!-- Handle -->
+  <line x1="16" y1="38" x2="32" y2="22" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
+  <line x1="16" y1="38" x2="32" y2="22" stroke="#0b2a45" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Hammer Head -->
+  <g transform="rotate(45 34 20)">
+    <rect x="22" y="14" width="24" height="12" rx="3" fill="#ffd84d" stroke="#0b2a45" stroke-width="2.8"/>
+    <!-- Claw back -->
+    <path d="M22 14 C16 12 14 18 18 26 L22 26 Z" fill="#facc15" stroke="#0b2a45" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+</svg>
+
